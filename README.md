@@ -12,4 +12,12 @@ Login, conta, logs e posições do perfil são fictícios e ficam apenas no `loc
 
 ## GitHub Pages
 
-O workflow em `.github/workflows/pages.yml` publica a branch `main` usando GitHub Pages.
+O projeto foi preparado para publicação direta pela branch `main`.
+
+No GitHub, abra **Settings → Pages** e escolha:
+
+- **Source:** Deploy from a branch
+- **Branch:** `main`
+- **Folder:** `/ (root)`
+
+Depois de salvar, o endereço padrão será `https://erereck.github.io/loglab/`.
