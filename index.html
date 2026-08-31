@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="LogLab - organize os jogos que você já jogou e talvez os que ainda pretende jogar.">
+  <title>LogLab :: seu arquivo pessoal de jogos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="site-shell">
+    <header id="masthead">
+      <div id="logo-wrap">
+        <a id="logo" href="#home">LOGLAB<span>.net</span></a>
+        <div id="tagline">registro comunitário independente de videogames</div>
+      </div>
+      <div id="member-box"></div>
+    </header>
+
+    <div id="utility-row">
+      <span>Você está em: <b id="crumb">página inicial</b></span>
+      <span id="clock"></span>
+      <span class="utility-warning">javascript precisa estar ligado</span>
+    </div>
+
+    <nav id="main-nav" aria-label="Navegação principal">
+      <a href="#home">INÍCIO</a>
+      <a href="#games">JOGOS</a>
+      <a href="#log">LOGAR JOGO</a>
+      <a href="#profile">MEU PERFIL</a>
+      <a href="#stats">ESTATÍSTICAS</a>
+      <a href="#help">AJUDA / FAQ</a>
+    </nav>
+
+    <marquee id="news-strip" behavior="scroll" direction="left" scrollamount="3">AVISO: devido a uma reorganização no banco de dados, alguns títulos podem aparecer com pontuação diferente da caixa original. &nbsp;&nbsp;&nbsp; • &nbsp;&nbsp;&nbsp; LogLab não recomenda usar o botão Voltar do navegador durante uma edição. &nbsp;&nbsp;&nbsp; • &nbsp;&nbsp;&nbsp; Novos cadastros abertos novamente.</marquee>
+
+    <main id="page"></main>
+
+    <footer>
+      <div><b>LogLab™</b> — Catálogo pessoal e comunidade de jogos eletrônicos.</div>
+      <div class="footer-links"><a href="#help">Ajuda</a> | <a href="#settings">Preferências</a> | <a href="#home" data-hard-refresh="1">recarregar dados</a> | <a href="#home">Página inicial</a></div>
+      <div class="best-viewed">Melhor visualizado em 1024×768 ou superior • CSS2 compatible browser • Última revisão do layout: 17/04/2013</div>
+      <div class="demo-note">Demonstração estática: os dados ficam somente neste navegador. Não use uma senha real.</div>
+    </footer>
+  </div>
+
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>
